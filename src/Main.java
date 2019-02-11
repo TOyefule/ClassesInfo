@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+  public static void main(String[] args) {
         /*
 
             Class / Object
@@ -33,30 +33,30 @@ public class Main {
 
          */
 
-        // Instantiation - declaring an object of a class type
-        Car car1 = new Car();
-            // Type: Car
-            // Object name: car1
+    // Instantiation - declaring an object of a class type
+    Car car1 = new Car();
+    // Type: Car
+    // Object name: car1
 
-        car1.setColor("red");
-        car1.setModel("Honda");
+    car1.setColor("red");
+    car1.setModel("Honda");
 
-        // Overloaded constructor
-        Car car3 = new Car("Mazda", "silver");
+    // Overloaded constructor
+    Car car3 = new Car("Mazda", "silver");
 
-        String color = car1.getColor(); // return "red"
-        String model = car1.getModel();
+    String color = car1.getColor(); // return "red"
+    String model = car1.getModel();
 
-        System.out.println(color);
-        System.out.println(model);
+    System.out.println(color);
+    System.out.println(model);
 
-        Scanner keyboard = new Scanner(System.in);
-        int input = keyboard.nextInt();
-        System.out.println(input);
+    Scanner keyboard = new Scanner(System.in);
+    int input = keyboard.nextInt();
+    System.out.println(input);
 
-        Car car2 = new Car();
-        car2.setColor("blue");
-        car2.setModel("Toyota");
+    Car car2 = new Car();
+    car2.setColor("blue");
+    car2.setModel("Toyota");
 
-    }
+  }
 }
